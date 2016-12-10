@@ -1,6 +1,6 @@
 #!/bin/sh
 # Small script to setup the HBase tables used by OpenTSDB.
-
+# test pull request
 test -n "$HBASE_HOME" || {
   echo >&2 'The environment variable HBASE_HOME must be set'
   exit 1
